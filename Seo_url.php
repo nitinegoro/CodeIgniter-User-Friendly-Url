@@ -61,4 +61,4 @@ class Seo_url
 
 
 /* End of file Slug.php */
-/* Location: ./application/modules/front/libraries/Seo_url.php */
+/* Location: ./application/libraries/Seo_url.php */
