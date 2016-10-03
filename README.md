@@ -19,7 +19,7 @@ atau menambahkan pada autolod.php
 
 Hanya memanggil method create_url :
 
-      echo $this->slug->create_slug('Blog Vicky Nitinegoro');
+      echo $this->seo_url->create_slug('Blog Vicky Nitinegoro');
       
 akan menjadi :
 
