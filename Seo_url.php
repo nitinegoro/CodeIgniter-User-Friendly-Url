@@ -45,7 +45,7 @@ class Seo_url
 	public function create_url($string)
 	{
 		$string = strtolower(url_title(convert_accented_characters($string), $this->replacement));
-		return reduce_multiples($string, $this->_GetReplace(), TRUE);
+		return reduce_multiples(substr($string, 0, 115), $this->_GetReplace(), TRUE);
 	}
 
 	/**
